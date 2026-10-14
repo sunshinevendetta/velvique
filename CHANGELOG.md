@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.1 · 2026-10-14
+
+- The bottle story is the brand's source of truth. La botella, Historia now carries the client's text verbatim (EN) and a straight translation (ES), one paragraph per chapter, eight chapters plus intro and close; earlier edits to it are reverted.
+- Bottle is 700 ml (was 750 ml in the store order and wholesale copy, ES/EN).
+- Journal seed `nacida-del-oficio` claimed Velvique was born in Jalisco from generational tradition, contradicting the story; rewritten from the story as `tres-amigos-y-cap`. If the journal was already published to Grove from /admin, republish it there.
+
 ## 0.6.0 · 2026-10-13
 
 - AR fixed on phones. Three causes: React 19 set `ar=""` as a falsy property, so AR was off and every phone got "open on your phone"; the GLB requires `EXT_meshopt_compression` and `EXT_texture_webp`, which Android Scene Viewer can't decode (and iOS Quick Look builds its USDZ from it); and the mode order put WebXR first, so a refused session showed "unsupported" on the first tap. `/ar` now loads `BOTTLE_AR_GLB` (plain copy: decoded, dequantized, PNG texture, 374 KB, same 0.33 m bounds), tries Scene Viewer before WebXR, and reads `canActivateAR` at tap time. The meshopt decoder vendor file is gone (only AR used it).

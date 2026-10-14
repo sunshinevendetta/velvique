@@ -11,10 +11,13 @@ import { prefersReducedMotion } from "@/lib/gsap";
 import { useClientValue } from "@/lib/use-client-value";
 import { mediaUrl } from "@/lib/media";
 
-/** One piece of evidence per chapter, in order (I..VII); IV, the craft, stands on text alone. */
-const CHAPTER_MEDIA: (MediaSlot | null)[] = ["vq-story-festival", "vq-story-idea", "vq-story-cap", null, "vq-story-launch", "vq-story-night", "vq-story-toast"];
+/** Evidence per chapter, in order (I..VIII); IV and V (learning the trade, the craft) stand on text alone. */
+const CHAPTER_MEDIA: (MediaSlot | null)[] = ["vq-story-festival", "vq-story-idea", "vq-story-cap", null, null, "vq-story-launch", "vq-story-night", "vq-story-toast"];
 
-/** The bottle's story as the client tells it: three friends, a festival in Croatia, Cap, and Velvique. */
+/**
+ * The bottle's story, the brand's source of truth: the client's text verbatim (EN) and translated (ES), one paragraph
+ * per chapter. Anything else on the site that disagrees with it is what gets fixed.
+ */
 export function Story() {
   const { t } = useSite();
   const b = t.botella;

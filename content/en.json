@@ -62,7 +62,7 @@
     "o1": "Guest list",
     "w_t": "Entry · 03.10",
     "w_c": "Wristband, still on",
-    "r1": "1 × Añejo cristalino 750 ml",
+    "r1": "1 × Añejo cristalino 700 ml",
     "r2": "Ice, one large cube",
     "r3": "Glasses",
     "r_total": "We don’t remember",
@@ -150,53 +150,59 @@
     "h": "The label is the light.",
     "lede": "Tall, black, faceted, with an electric blue label. It doesn't ask for attention. It was designed to earn it.",
     "story_t": "The story",
-    "story_h": "Three friends, one festival, and no tequila worth the night.",
-    "story_p": "Once upon a time there were three friends, lovers of electronic music, always looking for the next experience to live to the fullest.",
+    "story_h": "Three friends, one festival, and no good tequila to drink.",
+    "story_p": "Once upon a time there were three friends, who were lovers of electronic music and were always looking for new experiences to enjoy to the fullest. One weekend, they decided to attend a famous electronic music festival in Croatia, known for its vibrant and energetic atmosphere.",
     "story": [
       [
         "I",
         "Croatia",
         "The festival",
-        "One weekend they went to a famous electronic music festival in Croatia, known for its vibrant, energetic atmosphere. There they hit a small problem: there was no good tequila to drink. True lovers of the spirit, they were disappointed, and decided it was time to take matters into their own hands."
+        "During the festival, the friends encountered a small inconvenience: there was no good tequila to drink. As true lovers of this spirit, they were disappointed and decided it was time to take matters into their own hands."
       ],
       [
         "II",
-        "4:00 AM",
+        "Croatia",
         "The idea",
-        "A few drinks in, with the music still ringing in their ears, they came up with a bold idea: make their own tequila. Not just any tequila, but one held to the highest standard, made for the people who enjoy the moment and the good life."
+        "It was then that, in the middle of a drunken state and with the music ringing in their ears, they came up with a bold idea: create their own tequila. But not just any tequila, but one that met the highest quality standards and was exclusive for those who enjoyed the moment and enjoyed the good life."
       ],
       [
         "III",
         "Cap",
         "The outlaw",
-        "To do it right they went looking for someone who knew tequila inside out. That is how they met Cap, a Mexican outlaw with an excessive passion for tequila and for partying with beautiful women. Cap taught them everything he knew, from planting the agave to the final distillation."
+        "Determined to carry out their plan, the friends sought the guidance of someone who knew the world of tequila in depth. It was then that they met Cap, a Mexican outlaw who had an excessive passion for tequila and partying with beautiful girls."
       ],
       [
         "IV",
-        "Jalisco",
-        "The craft",
-        "The friends immersed themselves in the world of tequila: its varieties, flavors and aromas. They partnered with local farmers in Mexico for the purest, highest quality agave, and took care of every detail of the distillation so every drop came out perfect. Refined, never rigid. Premium, never distant."
+        "Cap",
+        "The teacher",
+        "Cap taught them everything he knew about the tequila making process, from the planting of the agave to the final distillation. The friends immersed themselves in the world of tequila, learning about the different varieties, flavors and aromas that characterized it."
       ],
       [
         "V",
-        "Velvique",
-        "The name",
-        "After years of hard work they launched their brand: Velvique. A smooth, silky tequila made exclusively from 100% Mexican agave. A spirit for new palates and seasoned ones alike, with a discerning taste."
+        "Mexico",
+        "The craft",
+        "With the knowledge gained, this 3 amigos began their journey to create their own brand of tequila. They partnered with local farmers in Mexico to source the purest, highest quality agave. They took care of every detail of the distillation process, making sure every drop of tequila was perfect."
       ],
       [
         "VI",
-        "The night",
-        "The table",
-        "Velvique quickly caught on with tequila lovers. Its unique flavor and exceptional quality made it stand out, and soon it was the drink of choice at parties and exclusive events, where the good life and the moment are everything."
+        "Velvique",
+        "The name",
+        "After years of hard work, they finally launched their tequila brand: \"Velvique\". A smooth and silky tequila, made exclusively with pure and 100% Mexican agave. It was a spirit that could be enjoyed by both young people and adults with a discerning palate and a sense of good taste."
       ],
       [
         "VII",
-        "Cheers",
+        "Velvique",
+        "The table",
+        "The \"Velvique\" brand quickly gained popularity among tequila lovers. Their unique flavor and exceptional quality made them stand out in the industry. Soon, his tequila became the preferred drink at parties and exclusive events, where the good life and enjoying the moment were paramount."
+      ],
+      [
+        "VIII",
+        "Cap",
         "The ambassador",
-        "The friends reached their goal and shared their success with Cap, who became their official ambassador. Together they keep enjoying life, music and good company, always toasting with Velvique, the silky elixir of pure agave, made with passion in Mexico."
+        "The friends achieved their goal of creating an exceptional tequila and shared their success with cap, who became their official ambassador. Together, they enjoyed life, music and beautiful girls, always toasting with Velvique, the silky elixir of pure agave, made with passion and dedication in Mexico."
       ]
     ],
-    "story_end": "Sometimes the best ideas arrive at the most unexpected moment. With determination and passion, three friends and Cap made something velvet and one of a kind, leaving a mark on the tequila industry and on everyone who enjoys the good life.",
+    "story_end": "And so, the story of this three amigos and Cap teaches us that sometimes, the best ideas arise at the most unexpected moments. With determination and passion, they managed to create something velvet and unique, leaving a mark on the tequila industry and in the hearts of those who enjoy the good life.",
     "liquid_t": "The liquid",
     "liquid_p": "Añejo cristalino tequila, 100% blue agave from Jalisco. Rested in oak barrels, then charcoal-filtered to strip the color, not the character: a cristalino with depth, rich and creamy.",
     "process_t": "Process",
@@ -463,11 +469,11 @@
     "formats_t": "Formats",
     "formats": [
       [
-        "750 ml",
+        "700 ml",
         "Case of 6 · individual gift box"
       ],
       [
-        "750 ml · table service",
+        "700 ml · table service",
         "Case of 6 · presentation base"
       ],
       [

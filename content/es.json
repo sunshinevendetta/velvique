@@ -62,7 +62,7 @@
     "o1": "Lista de invitados",
     "w_t": "Acceso · 03.10",
     "w_c": "Pulsera, todavía puesta",
-    "r1": "1 × Añejo cristalino 750 ml",
+    "r1": "1 × Añejo cristalino 700 ml",
     "r2": "Hielo, un cubo grande",
     "r3": "Vasos",
     "r_total": "No recordamos",
@@ -150,53 +150,59 @@
     "h": "La etiqueta es la luz.",
     "lede": "Alta, negra, facetada, con la etiqueta en azul eléctrico. No pide atención. Fue diseñada para merecerla.",
     "story_t": "La historia",
-    "story_h": "Tres amigos, un festival y ningún tequila a la altura.",
-    "story_p": "Érase una vez tres amigos, amantes de la música electrónica, siempre buscando la siguiente experiencia para vivirla al máximo.",
+    "story_h": "Tres amigos, un festival y ningún buen tequila para beber.",
+    "story_p": "Érase una vez tres amigos, amantes de la música electrónica, que siempre buscaban nuevas experiencias para disfrutar al máximo. Un fin de semana decidieron asistir a un famoso festival de música electrónica en Croacia, conocido por su ambiente vibrante y lleno de energía.",
     "story": [
       [
         "I",
         "Croacia",
         "El festival",
-        "Un fin de semana viajaron a un famoso festival de música electrónica en Croacia, conocido por su ambiente vibrante y lleno de energía. Ahí apareció un pequeño inconveniente: no había un buen tequila para beber. Como verdaderos amantes de este destilado, se decepcionaron y decidieron que era momento de tomar el asunto en sus propias manos."
+        "Durante el festival, los amigos se toparon con un pequeño inconveniente: no había un buen tequila para beber. Como verdaderos amantes de este destilado, se decepcionaron y decidieron que era momento de tomar el asunto en sus propias manos."
       ],
       [
         "II",
-        "4:00 AM",
+        "Croacia",
         "La idea",
-        "Con unas copas encima y la música todavía zumbando en los oídos, se les ocurrió una idea audaz: crear su propio tequila. No cualquiera, sino uno con los más altos estándares de calidad, exclusivo para quienes disfrutan el momento y la buena vida."
+        "Fue entonces cuando, en plena borrachera y con la música zumbando en los oídos, se les ocurrió una idea audaz: crear su propio tequila. Pero no cualquier tequila, sino uno que cumpliera los más altos estándares de calidad y fuera exclusivo para quienes disfrutaban el momento y la buena vida."
       ],
       [
         "III",
         "Cap",
         "El forajido",
-        "Para hacerlo bien buscaron a alguien que conociera el tequila a fondo. Así conocieron a Cap, un forajido mexicano con una pasión desmedida por el tequila y por la fiesta con mujeres hermosas. Cap les enseñó todo lo que sabía, desde la siembra del agave hasta la destilación final."
+        "Decididos a llevar a cabo su plan, los amigos buscaron la guía de alguien que conociera a fondo el mundo del tequila. Fue entonces cuando conocieron a Cap, un forajido mexicano con una pasión desmedida por el tequila y por la fiesta con chicas hermosas."
       ],
       [
         "IV",
-        "Jalisco",
-        "El oficio",
-        "Los amigos se sumergieron en el mundo del tequila: sus variedades, sabores y aromas. Se asociaron con agricultores locales en México para conseguir el agave más puro y de la más alta calidad, y cuidaron cada detalle de la destilación para que cada gota fuera perfecta. Refinado, pero nunca rígido. Premium, pero nunca lejano."
+        "Cap",
+        "El maestro",
+        "Cap les enseñó todo lo que sabía sobre el proceso de elaboración del tequila, desde la siembra del agave hasta la destilación final. Los amigos se sumergieron en el mundo del tequila y aprendieron sobre las distintas variedades, sabores y aromas que lo caracterizan."
       ],
       [
         "V",
-        "Velvique",
-        "El nombre",
-        "Después de años de trabajo lanzaron su marca: Velvique. Un tequila suave y sedoso, hecho exclusivamente con agave 100 % mexicano. Un destilado para paladares nuevos y experimentados por igual, siempre con buen gusto."
+        "México",
+        "El oficio",
+        "Con el conocimiento adquirido, estos tres amigos comenzaron su camino para crear su propia marca de tequila. Se asociaron con agricultores locales en México para conseguir el agave más puro y de la más alta calidad. Cuidaron cada detalle del proceso de destilación, asegurándose de que cada gota de tequila fuera perfecta."
       ],
       [
         "VI",
-        "La noche",
-        "La mesa",
-        "Velvique ganó popularidad rápidamente entre los amantes del tequila. Su sabor único y su calidad excepcional lo hicieron destacar, y pronto se volvió la bebida preferida en fiestas y eventos exclusivos, donde la buena vida y el momento lo son todo."
+        "Velvique",
+        "El nombre",
+        "Después de años de arduo trabajo, por fin lanzaron su marca de tequila: «Velvique». Un tequila suave y sedoso, elaborado exclusivamente con agave puro y 100 % mexicano. Un destilado que podían disfrutar tanto jóvenes como adultos con un paladar exigente y buen gusto."
       ],
       [
         "VII",
-        "Brindis",
+        "Velvique",
+        "La mesa",
+        "La marca «Velvique» ganó popularidad rápidamente entre los amantes del tequila. Su sabor único y su calidad excepcional la hicieron destacar en la industria. Pronto, su tequila se convirtió en la bebida preferida en fiestas y eventos exclusivos, donde la buena vida y disfrutar el momento eran lo más importante."
+      ],
+      [
+        "VIII",
+        "Cap",
         "El embajador",
-        "Los amigos cumplieron su meta y compartieron el éxito con Cap, que se convirtió en su embajador oficial. Juntos siguen disfrutando la vida, la música y la buena compañía, siempre brindando con Velvique, el elixir sedoso de agave puro, hecho con pasión en México."
+        "Los amigos cumplieron su meta de crear un tequila excepcional y compartieron su éxito con Cap, que se convirtió en su embajador oficial. Juntos disfrutaron la vida, la música y las chicas hermosas, siempre brindando con Velvique, el elixir sedoso de agave puro, hecho con pasión y dedicación en México."
       ]
     ],
-    "story_end": "A veces las mejores ideas llegan en el momento menos esperado. Con determinación y pasión, tres amigos y Cap crearon algo de terciopelo y único, que deja huella en la industria del tequila y en quienes disfrutan la buena vida.",
+    "story_end": "Y así, la historia de estos tres amigos y Cap nos enseña que, a veces, las mejores ideas surgen en los momentos más inesperados. Con determinación y pasión, lograron crear algo aterciopelado y único, dejando huella en la industria del tequila y en el corazón de quienes disfrutan la buena vida.",
     "liquid_t": "El líquido",
     "liquid_p": "Tequila añejo cristalino, 100% agave azul de Jalisco. Reposado en barricas de roble y después filtrado en carbón hasta quitarle el color, no el carácter: un cristalino con profundidad, rico y cremoso.",
     "process_t": "Proceso",
@@ -463,11 +469,11 @@
     "formats_t": "Formatos",
     "formats": [
       [
-        "750 ml",
+        "700 ml",
         "Caja de 6 · caja de regalo individual"
       ],
       [
-        "750 ml · servicio de mesa",
+        "700 ml · servicio de mesa",
         "Caja de 6 · base para presentación"
       ],
       [
