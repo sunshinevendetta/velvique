@@ -8,14 +8,14 @@ import { Footer } from "@/components/chrome/Footer";
 import { env } from "@/lib/env";
 import { mediaUrl, clockLabel } from "@/lib/media";
 import type { ModelViewerElement } from "@/types/model-viewer";
-import { BOTTLE_GLB as src } from "@/scene/bottle";
+import { BOTTLE_AR_GLB as src } from "@/scene/bottle";
 import { composeFlashPhoto } from "./flashPhoto";
 
 /**
  * "La botella en tu mesa": model-viewer covers both platforms.
- *  - Android Chrome: `webxr` mode (three.js immersive-ar + hit-test), falling back to Scene Viewer.
+ *  - Android: Scene Viewer (native ARCore, the most reliable path), falling back to `webxr` in the page.
  *  - iOS Safari: Quick Look with USDZ (from NEXT_PUBLIC_BOTTLE_USDZ, or auto-generated from the GLB).
- * The GLB is meshopt-compressed and baked in meters, so the camera view places it at real size.
+ * AR loads the plain GLB (`BOTTLE_AR_GLB`), baked in meters, so the camera view places it at real size.
  * Controls sit in one bar above the viewer, on screen at load: open camera, flash photo, short video.
  * The video records the viewer's own canvas (the camera view itself runs outside the page and can't be recorded).
  */
@@ -31,30 +31,28 @@ export function ArTable() {
   const mv = useRef<ModelViewerElement | null>(null);
   const recorder = useRef<MediaRecorder | null>(null);
   const [ready, setReady] = useState(false);
-  const [canAR, setCanAR] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [note, setNote] = useState<string | null>(null);
   const [recording, setRecording] = useState(0);
   const [capture, setCapture] = useState<Capture | null>(null);
 
   useEffect(() => {
-    // model-viewer only enables its bundled meshopt decoder once a location is set, before the first load.
-    import("@google/model-viewer").then(({ ModelViewerElement }) => {
-      ModelViewerElement.meshoptDecoderLocation = "/vendor/meshopt_decoder.js";
-      setReady(true);
-    });
+    import("@google/model-viewer").then(() => setReady(true));
   }, []);
 
   useEffect(() => {
     const el = mv.current;
     if (!el) return;
-    const onLoad = () => {
-      setLoaded(true);
-      setCanAR(Boolean(el.canActivateAR));
-    };
+    const onLoad = () => setLoaded(true);
+    // The camera view could not start (no ARCore, no Google app, or WebXR refused).
+    const onStatus = (e: Event) => (e as CustomEvent<{ status: string }>).detail.status === "failed" && setNote(a.unsupported);
     el.addEventListener("load", onLoad);
-    return () => el.removeEventListener("load", onLoad);
-  }, [ready]);
+    el.addEventListener("ar-status", onStatus);
+    return () => {
+      el.removeEventListener("load", onLoad);
+      el.removeEventListener("ar-status", onStatus);
+    };
+  }, [ready, a.unsupported]);
 
   useEffect(() => () => void (capture && URL.revokeObjectURL(capture.url)), [capture]);
   // The result shows under the viewer: bring it on screen as soon as it exists.
@@ -64,7 +62,8 @@ export function ArTable() {
 
   const openCamera = async () => {
     const el = mv.current;
-    if (el && canAR) {
+    // Read at tap time: model-viewer picks the AR mode asynchronously and can change it after a failed attempt.
+    if (el?.canActivateAR) {
       setNote(null);
       await el.activateAR().catch(() => setNote(a.unsupported));
     } else setNote(a.camera_phone);
@@ -161,8 +160,9 @@ export function ArTable() {
               src={src}
               ios-src={mediaUrl(env.bottleUsdz) ?? undefined}
               alt="Velvique"
-              ar=""
-              ar-modes="webxr scene-viewer quick-look"
+              // React 19 assigns this as the element's `ar` property: it must be `true`, since "" is falsy and disables AR.
+              ar
+              ar-modes="scene-viewer webxr quick-look"
               ar-placement="floor"
               ar-scale="fixed"
               camera-controls=""

@@ -1631,6 +1631,47 @@ img {
   }
 }
 
+/* The story: chapters alternate text and evidence, the way a night alternates talk and the floor. */
+.story {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: clamp(72px, 10vw, 140px);
+}
+.story-ch {
+  display: grid;
+  gap: clamp(28px, 5vw, 80px);
+  align-items: center;
+}
+.story-ch__text {
+  max-width: 34em;
+}
+/* Phone video is vertical: a narrow column keeps it from towering over the text. */
+.story-ch__media {
+  justify-self: center;
+  width: min(100%, 380px);
+}
+.story-ch__media video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 478 / 850;
+  object-fit: cover;
+  background: #000;
+  border: 1px solid var(--hairline);
+}
+@media (min-width: 900px) {
+  .story-ch:has(.story-ch__media) {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  }
+  .story-ch:nth-child(even):has(.story-ch__media) {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  }
+  .story-ch:nth-child(even) .story-ch__media {
+    order: -1;
+  }
+}
+
 .subscribe {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));

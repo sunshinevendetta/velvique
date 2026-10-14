@@ -14,6 +14,7 @@ import { Edge } from "@/components/bits/Edge";
 import { Seal } from "@/components/bits/Seal";
 import { Flash } from "@/components/bits/Flash";
 import { BottleStage } from "@/scene/BottleStage";
+import { Story } from "./Story";
 
 export function LaBotella() {
   const { t } = useSite();
@@ -41,14 +42,7 @@ export function LaBotella() {
         </NightSection>
       </LightsOut>
 
-      <NightSection time="4:10 AM" label="Historia" className="gutter section wrap stack" style={{ gap: 32 }}>
-        <RuleRow left="Jalisco" right={b.story_t} />
-        <h2 className="display display--lg" style={{ maxWidth: "16em" }}>
-          {b.story_h}
-        </h2>
-        <span className="gold-rule" aria-hidden />
-        <BlurText text={b.story_p} className="lede" style={{ maxWidth: "38em", fontSize: "clamp(18px,1.8vw,22px)" }} />
-      </NightSection>
+      <Story />
 
       <NightSection time="4:20 AM" label="Líquido" className="gutter section wrap stack" style={{ gap: 48 }}>
         <RuleRow left="I" right={b.liquid_t} />

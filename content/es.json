@@ -150,8 +150,53 @@
     "h": "La etiqueta es la luz.",
     "lede": "Alta, negra, facetada, con la etiqueta en azul eléctrico. No pide atención. Fue diseñada para merecerla.",
     "story_t": "La historia",
-    "story_h": "Nacida del oficio. Construida con actitud.",
-    "story_p": "Velvique nace en Jalisco, donde la disciplina, el patrimonio y la técnica definen la base. Pero nunca fue pensada para quedarse en la tradición: lleva el espíritu de Jalisco como energía, audaz, magnética y segura de sí misma. Refinada, pero nunca rígida. Premium, pero nunca lejana.",
+    "story_h": "Tres amigos, un festival y ningún tequila a la altura.",
+    "story_p": "Érase una vez tres amigos, amantes de la música electrónica, siempre buscando la siguiente experiencia para vivirla al máximo.",
+    "story": [
+      [
+        "I",
+        "Croacia",
+        "El festival",
+        "Un fin de semana viajaron a un famoso festival de música electrónica en Croacia, conocido por su ambiente vibrante y lleno de energía. Ahí apareció un pequeño inconveniente: no había un buen tequila para beber. Como verdaderos amantes de este destilado, se decepcionaron y decidieron que era momento de tomar el asunto en sus propias manos."
+      ],
+      [
+        "II",
+        "4:00 AM",
+        "La idea",
+        "Con unas copas encima y la música todavía zumbando en los oídos, se les ocurrió una idea audaz: crear su propio tequila. No cualquiera, sino uno con los más altos estándares de calidad, exclusivo para quienes disfrutan el momento y la buena vida."
+      ],
+      [
+        "III",
+        "Cap",
+        "El forajido",
+        "Para hacerlo bien buscaron a alguien que conociera el tequila a fondo. Así conocieron a Cap, un forajido mexicano con una pasión desmedida por el tequila y por la fiesta con mujeres hermosas. Cap les enseñó todo lo que sabía, desde la siembra del agave hasta la destilación final."
+      ],
+      [
+        "IV",
+        "Jalisco",
+        "El oficio",
+        "Los amigos se sumergieron en el mundo del tequila: sus variedades, sabores y aromas. Se asociaron con agricultores locales en México para conseguir el agave más puro y de la más alta calidad, y cuidaron cada detalle de la destilación para que cada gota fuera perfecta. Refinado, pero nunca rígido. Premium, pero nunca lejano."
+      ],
+      [
+        "V",
+        "Velvique",
+        "El nombre",
+        "Después de años de trabajo lanzaron su marca: Velvique. Un tequila suave y sedoso, hecho exclusivamente con agave 100 % mexicano. Un destilado para paladares nuevos y experimentados por igual, siempre con buen gusto."
+      ],
+      [
+        "VI",
+        "La noche",
+        "La mesa",
+        "Velvique ganó popularidad rápidamente entre los amantes del tequila. Su sabor único y su calidad excepcional lo hicieron destacar, y pronto se volvió la bebida preferida en fiestas y eventos exclusivos, donde la buena vida y el momento lo son todo."
+      ],
+      [
+        "VII",
+        "Brindis",
+        "El embajador",
+        "Los amigos cumplieron su meta y compartieron el éxito con Cap, que se convirtió en su embajador oficial. Juntos siguen disfrutando la vida, la música y la buena compañía, siempre brindando con Velvique, el elixir sedoso de agave puro, hecho con pasión en México."
+      ]
+    ],
+    "story_end": "A veces las mejores ideas llegan en el momento menos esperado. Con determinación y pasión, tres amigos y Cap crearon algo de terciopelo y único, que deja huella en la industria del tequila y en quienes disfrutan la buena vida.",
     "liquid_t": "El líquido",
     "liquid_p": "Tequila añejo cristalino, 100% agave azul de Jalisco. Reposado en barricas de roble y después filtrado en carbón hasta quitarle el color, no el carácter: un cristalino con profundidad, rico y cremoso.",
     "process_t": "Proceso",

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0 · 2026-10-13
+
+- AR fixed on phones. Three causes: React 19 set `ar=""` as a falsy property, so AR was off and every phone got "open on your phone"; the GLB requires `EXT_meshopt_compression` and `EXT_texture_webp`, which Android Scene Viewer can't decode (and iOS Quick Look builds its USDZ from it); and the mode order put WebXR first, so a refused session showed "unsupported" on the first tap. `/ar` now loads `BOTTLE_AR_GLB` (plain copy: decoded, dequantized, PNG texture, 374 KB, same 0.33 m bounds), tries Scene Viewer before WebXR, and reads `canActivateAR` at tap time. The meshopt decoder vendor file is gone (only AR used it).
+- La botella, Historia: the client's story in seven chapters (Croacia, the idea, Cap, the craft, the name, the table, the ambassador) plus intro and close, ES/EN. Five client videos (no audio track, no controls; loops that play only on screen, poster still under reduced motion) and two photos, all new to the site, uploaded to Grove immutable and verified by hash. Videos are the originals remuxed (audio removed for good, faststart), never re-cut or cropped.
+- Media slots `vq-story-*`; a `poster` on a slot marks it as video, and `/admin` media skips those.
+
 ## 0.5.0 · 2026-10-08
 
 - Palette from `PANTONE.jpeg`: blue `#4EA9D5` (was `#3D7BFF`) everywhere, LED shader included. Ground back to the blue-black `#08080A` / `#0D0D11` (Pantone K95 `#313030` kept as `TOKENS.pantoneBlack` for print; it reads grey on a display). Every text colour is solid: labels gold `#C9AB55`, tertiary text a pale Pantone-blue tint `#8FB0C4`, hairlines the blue at low alpha. Alpha gold over black had turned olive and unreadable.

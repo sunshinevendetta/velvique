@@ -4,7 +4,7 @@ type ModelViewerAttrs = DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLEleme
   src?: string;
   "ios-src"?: string;
   alt?: string;
-  ar?: boolean | "";
+  ar?: boolean;
   "ar-modes"?: string;
   "ar-placement"?: "floor" | "wall";
   "ar-scale"?: "auto" | "fixed";

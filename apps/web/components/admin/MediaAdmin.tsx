@@ -29,7 +29,7 @@ export function MediaAdmin({ admin, manifest, onSaved }: { admin: Address; manif
     <div className="stack" style={{ gap: 24 }}>
       <Status state={state} labels={{ saving: a.saving, saved: a.saved, error: a.error }} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(240px,1fr))", gap: 28 }}>
-        {(Object.keys(media) as MediaSlot[]).map((slot) => (
+        {(Object.keys(media) as MediaSlot[]).filter((slot) => !media[slot].poster).map((slot) => (
           <ImageField
             key={slot}
             label={`${slot} · ${media[slot].placeholder[lang]}`}

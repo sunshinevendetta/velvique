@@ -187,7 +187,7 @@ Every path ends as USDC on Base in VelviqueOrders, swept to the Safe after deliv
 
 ## 7. 3D bottle, LED shader and AR
 
-- Client bottle GLB (`apps/web/public/models/bottle.glb`, ~40 KB): one mesh, one baked texture that is both print and LED mask. Optimized with `gltfjsx --transform` (Draco geometry, 1024 WebP), baked in meters (0.33 m, base at y = 0, label facing +Z). Served from Grove: `BOTTLE_GLB` in `apps/web/scene/bottle.ts` (https://api.grove.storage/4f9098d4c0b312c9be3759133030b27947090e732f1d5b8ef5ceb04f9b70625c). Rendered by `apps/web/scene/BottleModel.tsx`.
+- Client bottle GLB (`apps/web/public/models/bottle.glb`, ~40 KB): one mesh, one baked texture that is both print and LED mask. Optimized with `gltfjsx --transform` (Draco geometry, 1024 WebP), baked in meters (0.33 m, base at y = 0, label facing +Z). Served from Grove: `BOTTLE_GLB` in `apps/web/scene/bottle.ts` (https://api.grove.storage/4f9098d4c0b312c9be3759133030b27947090e732f1d5b8ef5ceb04f9b70625c). Rendered by `apps/web/scene/BottleModel.tsx`. AR (`/ar`) loads a plain copy instead, `BOTTLE_AR_GLB` (no meshopt, no quantization, PNG texture, ~370 KB): Android Scene Viewer cannot decode meshopt or WebP and iOS Quick Look builds its USDZ from it. Rebake it whenever the main GLB changes.
 - Glass: black, low roughness, low metalness on the GLB material; no transmission (the GLB is a single opaque shell).
 - LED: emissive map of the V monogram and wordmark, `toneMapped: false`, selective bloom at threshold 1, cosine breathing over 5 s (4 to 6 allowed), never a flicker.
 - Spill: blue point light at the label (rect area light optional once the GLB lands).

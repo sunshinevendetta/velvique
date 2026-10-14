@@ -70,9 +70,17 @@ export type MediaSlot =
   | "vq-dawn"
   | "vq-unbox"
   | "vq-pour"
-  | "vq-kosher";
+  | "vq-kosher"
+  | "vq-story-amigos"
+  | "vq-story-festival"
+  | "vq-story-idea"
+  | "vq-story-cap"
+  | "vq-story-launch"
+  | "vq-story-night"
+  | "vq-story-toast";
 
-export type MediaEntry = { uri: string | null; alt: Record<Lang, string>; placeholder: Record<Lang, string> };
+/** `poster` marks a video slot (an mp4 on Grove plus its still); those are set in the repo, not from /admin. */
+export type MediaEntry = { uri: string | null; poster?: string; alt: Record<Lang, string>; placeholder: Record<Lang, string> };
 
 export { default as MEDIA } from "./media.json";
 
