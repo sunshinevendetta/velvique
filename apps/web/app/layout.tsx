@@ -32,7 +32,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://velviquetequila.com"),
   title: { default: COPY.ES.meta.title, template: "%s · Velvique" },
   description: COPY.ES.meta.description,
-  openGraph: { title: COPY.ES.meta.title, description: COPY.ES.meta.description, locale: "es_MX", type: "website" },
+  applicationName: "Velvique",
+  // Favicon, app icons and the share card are files in this folder (favicon.ico, icon.png, apple-icon.png,
+  // opengraph-image.png, twitter-image.png), all drawn from the client's V monogram and wordmark.
+  openGraph: {
+    title: COPY.ES.meta.title,
+    description: COPY.ES.meta.description,
+    siteName: "Velvique",
+    locale: "es_MX",
+    alternateLocale: ["en_US"],
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: COPY.ES.meta.title, description: COPY.ES.meta.description },
   robots: { index: true, follow: true },
 };
 

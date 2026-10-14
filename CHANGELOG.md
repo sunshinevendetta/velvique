@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.2 · 2026-10-14
+
+- Brand icons replace the host defaults: `favicon.ico` (16/32/48), `icon.png` (512) and `apple-icon.png` (180), the client's V monogram in the label blue on black, plus `manifest.webmanifest`.
+- Share card for every page (`opengraph-image.png`, `twitter-image.png`, 1200x630): the V lit blue over a soft glow, the wordmark, "La etiqueta es la luz.", tequila añejo cristalino · 100% agave · 700 ml. Metadata adds site name, alternate locale and `summary_large_image`. Built from `LOGO VELVIQUE.jpg.jpeg` (ink to alpha, no redraw).
+
 ## 0.6.1 · 2026-10-14
 
 - The bottle story is the brand's source of truth. La botella, Historia now carries the client's text verbatim (EN) and a straight translation (ES), one paragraph per chapter, eight chapters plus intro and close; earlier edits to it are reverted.
