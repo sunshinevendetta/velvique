@@ -95,7 +95,7 @@ export function LaBotella() {
           <ul className="seals">
             {b.certs.map(([k, v]) => (
               <li key={k}>
-                <Seal text={`${k} · Velvique · Jalisco`} size={168}>
+                <Seal text={`${k} · Velvique · México`} size={168}>
                   <span className="flyer flyer--md">{k}</span>
                 </Seal>
                 <p className="lit-list__line" style={{ textAlign: "center" }}>

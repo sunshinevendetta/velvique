@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Velvique · Añejo cristalino",
-    "description": "Tequila añejo cristalino 100% agave azul, elaborado en Jalisco. Rico y cremoso, versátil en coctelería. Kosher, orgánico y certificación NOM. Venta solo por invitación."
+    "description": "Velvique: un tequila suave y sedoso, hecho exclusivamente con agave puro y 100 % mexicano, con pasión y dedicación en México. Nació de la idea de tres amigos en un festival de música electrónica en Croacia, para quienes disfrutan el momento y la buena vida."
   },
   "nav": {
     "menu": "Menú",
@@ -45,13 +45,13 @@
     "a_hint": "Arrastra la foto de arriba, o tócala, para ver la siguiente.",
     "b_ts": "4:00 AM · Luces fuera",
     "b_h": "La etiqueta es la luz.",
-    "b_p": "Añejo cristalino 100% agave azul. Reposado en roble y filtrado en carbón hasta quedar claro. Rico y cremoso, con cuerpo, ligeramente peligroso.",
+    "b_p": "Añejo cristalino de agave puro y 100 % mexicano. Reposado en roble y filtrado en carbón hasta quedar claro. Suave y sedoso, con cuerpo, ligeramente peligroso.",
     "k1": "Tipo",
     "v1": "Tequila añejo cristalino",
     "k2": "Proceso",
     "v2": "Roble, después carbón",
     "k3": "Notas",
-    "v3": "Cremosas, redondas",
+    "v3": "Sedosas, redondas",
     "k4": "Servir",
     "v4": "Ligeramente frío",
     "l_ts": "5:30 AM · Lo que quedó",
@@ -103,7 +103,7 @@
     "f3": "Verificar botella",
     "f4": "Mayoreo",
     "f5": "La botella en tu mesa",
-    "tag": "Elaborado en Jalisco con pasión.",
+    "tag": "Hecho con pasión y dedicación en México.",
     "creds": "Kosher · Orgánico · Certificación NOM",
     "legal": "Disfruta con responsabilidad. Solo para mayores de edad."
   },
@@ -204,13 +204,13 @@
     ],
     "story_end": "Y así, la historia de estos tres amigos y Cap nos enseña que, a veces, las mejores ideas surgen en los momentos más inesperados. Con determinación y pasión, lograron crear algo aterciopelado y único, dejando huella en la industria del tequila y en el corazón de quienes disfrutan la buena vida.",
     "liquid_t": "El líquido",
-    "liquid_p": "Tequila añejo cristalino, 100% agave azul de Jalisco. Reposado en barricas de roble y después filtrado en carbón hasta quitarle el color, no el carácter: un cristalino con profundidad, rico y cremoso.",
+    "liquid_p": "Tequila añejo cristalino de agave puro y 100 % mexicano, de agricultores locales en México. Reposado en barricas de roble y después filtrado en carbón hasta quitarle el color, no el carácter: un cristalino con profundidad, suave y sedoso.",
     "process_t": "Proceso",
     "process": [
       [
         "I",
         "Agave",
-        "Agave azul maduro, cocido lento."
+        "Agave puro mexicano de agricultores locales, cocido lento."
       ],
       [
         "II",
@@ -236,7 +236,7 @@
       ],
       [
         "Boca",
-        "Rico y cremoso, cuerpo pleno. Roble discreto."
+        "Suave y sedoso, cuerpo pleno. Roble discreto."
       ],
       [
         "Final",
@@ -264,7 +264,7 @@
     "serve": [
       [
         "Solo",
-        "Ligeramente frío. Resalta la profundidad cremosa y el final prolongado."
+        "Ligeramente frío. Resalta lo sedoso y el final prolongado."
       ],
       [
         "Coctelería",

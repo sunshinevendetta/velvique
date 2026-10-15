@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Velvique · Añejo cristalino",
-    "description": "Añejo cristalino tequila, 100% blue agave, made in Jalisco. Rich and creamy, versatile in cocktails. Kosher, organic and NOM certified. Sold by invitation only."
+    "description": "Velvique: a smooth and silky tequila, made exclusively with pure and 100% Mexican agave, with passion and dedication in Mexico. Born from three friends' idea at an electronic music festival in Croatia, for those who enjoy the moment and the good life."
   },
   "nav": {
     "menu": "Menu",
@@ -45,13 +45,13 @@
     "a_hint": "Drag the top photo away, or tap it, to see the next one.",
     "b_ts": "4:00 AM · Lights out",
     "b_h": "The label is the light.",
-    "b_p": "Añejo cristalino, 100% blue agave. Rested in oak, then charcoal-filtered until clear. Rich and creamy, full-bodied, slightly dangerous.",
+    "b_p": "Añejo cristalino of pure, 100% Mexican agave. Rested in oak, then charcoal-filtered until clear. Smooth and silky, full-bodied, slightly dangerous.",
     "k1": "Type",
     "v1": "Añejo cristalino tequila",
     "k2": "Process",
     "v2": "Oak, then charcoal",
     "k3": "Notes",
-    "v3": "Creamy, rounded",
+    "v3": "Silky, rounded",
     "k4": "Serve",
     "v4": "Lightly chilled",
     "l_ts": "5:30 AM · What was left",
@@ -103,7 +103,7 @@
     "f3": "Verify bottle",
     "f4": "Wholesale",
     "f5": "The bottle on your table",
-    "tag": "Made in Jalisco with passion.",
+    "tag": "Made with passion and dedication in Mexico.",
     "creds": "Kosher · Organic · NOM certified",
     "legal": "Enjoy responsibly. Legal drinking age only."
   },
@@ -204,13 +204,13 @@
     ],
     "story_end": "And so, the story of this three amigos and Cap teaches us that sometimes, the best ideas arise at the most unexpected moments. With determination and passion, they managed to create something velvet and unique, leaving a mark on the tequila industry and in the hearts of those who enjoy the good life.",
     "liquid_t": "The liquid",
-    "liquid_p": "Añejo cristalino tequila, 100% blue agave from Jalisco. Rested in oak barrels, then charcoal-filtered to strip the color, not the character: a cristalino with depth, rich and creamy.",
+    "liquid_p": "Añejo cristalino tequila of pure, 100% Mexican agave from local farmers in Mexico. Rested in oak barrels, then charcoal-filtered to strip the color, not the character: a cristalino with depth, smooth and silky.",
     "process_t": "Process",
     "process": [
       [
         "I",
         "Agave",
-        "Mature blue agave, slow-cooked."
+        "Pure Mexican agave from local farmers, slow-cooked."
       ],
       [
         "II",
@@ -236,7 +236,7 @@
       ],
       [
         "Palate",
-        "Rich and creamy, full-bodied. Quiet oak."
+        "Smooth and silky, full-bodied. Quiet oak."
       ],
       [
         "Finish",
@@ -264,7 +264,7 @@
     "serve": [
       [
         "Neat",
-        "Lightly chilled. It brings out the creamy depth and the long finish."
+        "Lightly chilled. It brings out the silkiness and the long finish."
       ],
       [
         "Cocktails",
